@@ -11,7 +11,7 @@ provider "azurerm" {
   # Configuration options
   features {}
 }
-
+#
 
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
